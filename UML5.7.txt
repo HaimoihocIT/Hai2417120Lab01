@@ -1,0 +1,32 @@
+-----------------------------------------------------------------------------------------
+Class: BankAccount
+-----------------------------------------------------------------------------------------
+- accountHolder: String
+- balance: double
+- monthlyInterestRate: double
+- transactionHistory: List<Transaction>
+- withdrawalCount: int
+-----------------------------------------------------------------------------------------
++ BankAccount(accountHolder: String, initialBalance: double, monthlyInterestRate: double)
++ deposit(amount: double): void
++ withdraw(amount: double): void
++ applyMonthlyInterest(): void
++ printTransactionHistory(): void
+-----------------------------------------------------------------------------------------
+
+       |
+       |
+       |
+       V
+
+-------------------------------------------
+Class: Transaction
+-------------------------------------------
+- type: String
+- amount: double
+- date: Date
+-------------------------------------------
++ Transaction(type: String, amount: double)
++ toString(): String
+-------------------------------------------
+
