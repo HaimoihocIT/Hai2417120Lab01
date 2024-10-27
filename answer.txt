@@ -1,0 +1,6 @@
+5.1
+*Q:What happens if users choose “Cancel”?
+ A:the dialog display "NO".
+
+*Q:How to customize the options to users, e.g. only two options: “Yes” and “No”, OR “I do” and “I don’t” (Suggestion: Use Javadocs or using Eclipse/Netbean IDE help)
+ A: Use: String[] options = {"YES","NO"} or String[] options = {"I do","I don't"}
